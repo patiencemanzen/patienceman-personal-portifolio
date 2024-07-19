@@ -7,13 +7,13 @@ module.exports = {
 		remotePatterns: [
 			{
 				protocol: 'https',
-				hostname: '**.onrender.com',
+				hostname: '**.vercel.app',
 				pathname: '/api/**'
 			},
 			{
 				protocol: 'https',
-				hostname: '**.onrender.com',
-				pathname: '?app=portfolio-theme-jqe0jhmif-atlamors.onrender.com'
+				hostname: '**.vercel.app',
+				pathname: '?app=portfolio-theme-jqe0jhmif-atlamors.vercel.app'
 			},
 			{
 				protocol: 'https',
