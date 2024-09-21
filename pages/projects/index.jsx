@@ -1,18 +1,14 @@
-// Sections
 import GitRecentProjects from '../../components/sections/projects/recent'
 import FeaturedProjects from '../../components/sections/projects/featured'
-
 import Color  from '../../components/utils/page.colors.util'
-
 import settings from '../../content/_settings.json'
 import colors from '../../content/projects/_colors.json'
 
-//
 export default function Projects({ user, repos }) {
 	return (
 		<>
 		<Color colors={colors} />
-		<FeaturedProjects />
+		{/* <FeaturedProjects /> */}
 		<GitRecentProjects user={user} repos={repos} />
 		</>
 	)
@@ -20,12 +16,10 @@ export default function Projects({ user, repos }) {
 
 // This gets called on every request
 export async function getServerSideProps({ res }) {
-
 	res.setHeader(
 		'Cache-Control',
 		'public, s-maxage=600, stale-while-revalidate=59'
 	)
-
 	const [ gitUserRes, gitReposRes] = await Promise.all( [
 		fetch(`https://api.github.com/users/${settings.username.github}`),
 		fetch(`https://api.github.com/users/${settings.username.github}/repos`),
@@ -59,6 +53,5 @@ export async function getServerSideProps({ res }) {
 	}
 
 	if (!repos || !user) { return { notFound: true,	} }
-
 	return { props: { repos, user } }
 }
