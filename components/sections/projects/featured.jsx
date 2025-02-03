@@ -18,14 +18,15 @@ export default function FeaturedProjects() {
 			<Container spacing={'verticalXXXXLrg'}>
 				<SectionTitle
 					title="Featured Projects"
-					preTitle="UX and Full Stack"
+					preTitle="Full Stack Development"
 					subTitle="Focused on the experience, driven by the engineering."
-				/> 				{
-				content.map( (data, index) => {
-					return (
-						<FeaturedProject content={data} index={index} key={index} />
-					)
-				})
+				/> 				
+				{
+					content.map( (data, index) => {
+						return (
+							<FeaturedProject content={data} index={index} key={index} />
+						)
+					})
 				}
 			</Container>
 			<div className={css.bgContainer}>

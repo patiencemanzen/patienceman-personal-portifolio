@@ -8,7 +8,9 @@
 		"imageOptions": [
 		],
 		"images": [
-			
+			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/03.png" },
+			{ "key": "mock-stack",	"hover": "right",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png" },
+			{ "key": "mock-stack",	"hover": "left",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/01.png" }
 		],
 		"stack": [
 			{ "key": "nodejs", 		"name": "Node.js", 			"type": "devicon" },
@@ -28,6 +30,7 @@
 			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
+			{ "key": "portfolio", "hover": "left", "h": "797", "w": "556",  "url": "/img/portfolio-mock_single.png" }
 		],
 		"stack": [
 			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
@@ -50,7 +53,9 @@
 		"imageOptions": [
 		],
 		"images": [
-			
+			{ "key": "mock-stack",	"hover": "right", 	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/03.png" },
+			{ "key": "mock-stack",	"hover": "right",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/02.png" },
+			{ "key": "mock-stack",	"hover": "left",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/01.png" }
 		],
 		"stack": [
 			{ "key": "php", 		"name": "PHP", 			"type": "devicon" },

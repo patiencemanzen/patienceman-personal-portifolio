@@ -1,7 +1,7 @@
 {
 	"intro": {
 		"start": "const Patienceman = ( name, passion ) =>",
-		"end": "Hello, my name is",
+		"end": "Hello, My Name Is",
 		"speed": 60,
 		"deletionSpeed": 80,
 		"wrapper": "h2",
@@ -15,7 +15,7 @@
 		"usp": "I create and Develop Impactful Experiences."
 	},
 
-	"paragraph": "I am a professional software engineer — a constantly evolving entrepreneur & Probleme Solver driven by a passion for lifelong learning and the desire to leave a lasting impact.",
+	"paragraph": "I am a highly skilled software developer with experience in backend development using Node.js with Nest.js frameworks and PHP with Laravel. I also have experience in frontend development with React.js. I am passionate about creating innovative, user-centric solutions.",
 
 	"buttons": {
 		"primary": {

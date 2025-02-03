@@ -30,7 +30,7 @@ export default function Technical() {
 				<SectionTitle
 					title="Technical"
 					preTitle="Hardskills"
-					subTitle="As a creative technologist, I craft intuitive digital experiences using a diverse set of tools and languages."
+					subTitle="As a creative technologist, I design user-friendly digital experiences using various tools and programming languages."
 				/>
 				<section className={`${about.content} ${about.container}`}>
 					<div className={about.copy}>
@@ -43,7 +43,7 @@ export default function Technical() {
 						/>
 						<BadgesBlock 
 							title="Software I love to work with" 
-							copy="With over 6 years of experience creating digital assets, I have a deep and intuitive understanding of how the interfaces of the best software products in the world are designed. This is just some of the software I have used over that time."
+							copy="With over 5 years of experience creating digital assets, I have a deep and intuitive understanding of how the interfaces of the best software products in the world are designed. This is just some of the software I have used over that time."
 							list={software}
 							block="software" 
 							fullContainer="fullContainer"
@@ -76,7 +76,6 @@ const software = [
 	{ key: 'androidstudio', name: 'Android Studio', 	type: 'devicon' },
 	{ key: 'vscode', 		name: 'VSCode', 			type: 'devicon' },
 	{ key: 'figma', 		name: 'Figma', 				type: 'devicon' },
-	{ key: 'vscode', 		name: 'VSCode', 			type: 'devicon' },
 	{ key: 'mailbox', 		name: 'Postman', 			type: 'fas' },
 	{ key: 'xcode',			name: 'X-code', 			type: 'devicon' },
 	{ key: 'docker',		name: 'Docker Engine', 		type: 'devicon' },
@@ -86,19 +85,21 @@ const software = [
 const tech	= [
 	{ key: 'javascript', 	name: 'JavaScript', 		type: 'devicon' },
 	{ key: 'nodejs', 		name: 'NodeJS', 			type: 'devicon' },
+	{ key: 'nestjs', 		name: 'NestJS', 			type: 'devicon' },
+	{ key: 'django', 		name: 'django', 			type: 'devicon' },
+	{ key: 'php', 			name: 'PHP', 				type: 'devicon' },
+	{ key: 'laravel', 		name: 'Laravel', 			type: 'devicon' },
+	{ key: 'flutter', 		name: 'flutter', 			type: 'devicon' },
 	{ key: 'react', 		name: 'React', 				type: 'devicon' },
 	{ key: 'nextjs', 		name: 'NextJS', 			type: 'devicon' },
 	{ key: 'jquery', 		name: 'jQuery', 			type: 'devicon' },
-	{ key: 'php', 			name: 'PHP', 				type: 'devicon' },
-	{ key: 'django', 		name: 'django', 			type: 'devicon' },
-	{ key: 'flutter', 	name: 'flutter', 		type: 'devicon' },
 	{ key: "google",		name: "GA4/GTM", 			type: "devicon" },
 	{ key: 'html5', 		name: 'HTML5', 				type: 'devicon' },
 	{ key: 'css3', 			name: 'CSS3', 				type: 'devicon' },
 	{ key: 'sass', 			name: 'SASS', 				type: 'devicon' },
 	{ key: 'git', 			name: 'Git', 				type: 'devicon' },
 	{ key: 'mysql', 		name: 'MySQL', 				type: 'devicon' },
+	{ key: 'postgresql', 	name: 'PostgreSQL', 		type: 'devicon' },
 	{ key: 'mongodb', 		name: 'MongoDB', 			type: 'devicon' },
-	{ key: 'laravel', 		name: 'laravel', 			type: 'devicon' },
 	{ key: 'docker', 		name: 'docker', 			type: 'devicon' },
 ]

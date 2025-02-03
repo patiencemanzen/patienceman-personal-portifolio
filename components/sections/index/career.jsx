@@ -26,7 +26,7 @@ export default function Career() {
 				<SectionTitle
 					title="Experience"
 					preTitle="Career"
-					subTitle="I am current managing, and developing many consumer and digital product initiatives at Rwanda Build Program"
+					subTitle="Always seeking a challenging role where I can leverage my expertise on impactful projects to drive technological advancements. My goal is to continuously innovate, learn, and improve system efficiency."
 				/>
 				<section className={career.area}>
 					<article className={career.company}>
@@ -34,7 +34,7 @@ export default function Career() {
 							<span className={career.companyHeader}>
 								<h3>Rwanda Build Program.</h3>
 								<h4>Onsite Full-time</h4>
-								<h4>Apr 2022 - Present · 3 yrs 10 mos</h4>
+								<h4>JAN 2022 - JAN 2025 · 3 yrs</h4>
 								<h5>Gasabo, Kigali, Rwanda</h5>
 							</span>
 							<p>
@@ -49,11 +49,11 @@ export default function Career() {
 							<span className={career.companyHeader}>
 								<h3>Vitaway E-clinic</h3>
 								<h4>Onsite Full-time</h4>
-								<h4>Jun 2019 - Feb 2022 · 2 yrs 5 mos</h4>
-								<h5>Vancouver, British Columbia, Canada</h5>
+								<h4>JAN 2019 - JAN 2022 · 2 yrs 5 mos</h4>
+								<h5>Gasabo, Kigali, Rwanda</h5>
 							</span>
 							<p>
-							Another Creative is a full stack agency that helps deliver exceptional digital experiences to small and medium businesses. Branding, Marketing, and Web/Software Development.
+								Rwandan digital healthcare platform that provides multi-disciplinary health practices, with a mission of equipping people, especially young one.
 							</p>
 						</div>
 						<div className={career.companyAlt}></div>
