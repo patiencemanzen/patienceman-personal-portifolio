@@ -1,6 +1,6 @@
 {
 	"intro": {
-		"start": "const Patienceman = ( name, passion ) =>",
+		"start": "const patienceman = ( name, passion ) =>",
 		"end": "Hello, My Name Is",
 		"speed": 60,
 		"deletionSpeed": 80,
@@ -9,14 +9,11 @@
 		"deleteDelay": 3000,
 		"restartDelay": 12000
 	},
-
 	"header": {
 		"name": "Manirabona Patience.",
-		"usp": "I create and Develop Impactful Experiences."
+		"usp": "Innovative Thinker & Problem Solver"
 	},
-
-	"paragraph": "I am a highly skilled software developer with experience in backend development using Node.js with Nest.js frameworks and PHP with Laravel. I also have experience in frontend development with React.js. I am passionate about creating innovative, user-centric solutions.",
-
+	"paragraph": "A passionate and innovative problem solver, this individual has a strong ability to create impactful solutions. With a solid background in software development, they excel at building efficient, user-friendly systems that enhance everyday experiences. Beyond coding, they are a visionary thinker who continually explores new ways to improve technology, streamline processes, and drive meaningful change. Their dedication to continuous learning and innovation makes them a dynamic force in the digital world.",
 	"buttons": {
 		"primary": {
 			"title": "Contact Me",
