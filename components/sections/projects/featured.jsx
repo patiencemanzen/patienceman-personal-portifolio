@@ -20,7 +20,7 @@ export default function FeaturedProjects() {
 					title="Featured Projects"
 					preTitle="Full Stack Development"
 					subTitle="Focused on the experience, driven by the engineering."
-				/> 				
+				/>		
 				{
 					content.map( (data, index) => {
 						return (

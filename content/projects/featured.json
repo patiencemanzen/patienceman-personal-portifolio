@@ -1,21 +1,68 @@
 [
 	{
-		"project": "Consult Solutions.",
+		"project": "Art For Memory",
+		"url": "https://artformemory.com",
+		"repo": "Private",
+		"descriptionTitle": "A digital art gallery",
+		"description": "a group of young Rwandan artists, through the Art for Memories initiative, are preserving the memory of genocide victims by recreating portraits from old photographs, offering solace and remembrance to survivors and their families",
+		"imageOptions": [],
+		"images": [],
+		"stack": [
+			{ "key": "typescript", "name": "Typescript", "type": "devicon" },
+			{ "key": "react", "name": "React.js", "type": "devicon" },
+			{ "key": "nodejs", "name": "Node.js", "type": "devicon" },
+			{ "key": "mongodb", "name": "MongoDB", "type": "devicon" },
+			{ "key": "javascript", "name": "JavaScript", "type": "devicon" },
+			{ "key": "prisma", "name": "Prisma", "type": "devicon" },
+			{ "key": "graphql", "name": "GraphQL", "type": "devicon" },
+			{ "key": "docker", "name": "Docker", "type": "devicon" },
+			{ "key": "git", "name": "Git(Hub)", "type": "devicon" }
+		]
+	},
+	{
+		"project": "Eriprime.",
 		"url": "https://consultsolutions.onrender.com",
 		"repo": "Private",
 		"descriptionTitle": "an innovative online car marketplace",
 		"description": "that connects buyers and sellers in a seamless and efficient way.",
-		"imageOptions": [
-		],
-		"images": [
-			
-		],
+		"imageOptions": [],
+		"images": [],
 		"stack": [
-			{ "key": "nodejs", 		"name": "Node.js", 			"type": "devicon" },
-			{ "key": "react", 		"name": "React.js", 		"type": "devicon" },
-			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
-			{ "key": "mongodb", 		"name": "MongoDB", 		"type": "devicon" },
-			{ "key": "typescript", "name": "Typescript", 	"type": "devicon" }
+			{
+				"key": "nodejs",
+				"name": "Node.js",
+				"type": "devicon"
+			},
+			{
+				"key": "react",
+				"name": "React.js",
+				"type": "devicon"
+			},
+			{
+				"key": "javascript",
+				"name": "JavaScript",
+				"type": "devicon"
+			},
+			{
+				"key": "mongodb",
+				"name": "MongoDB",
+				"type": "devicon"
+			},
+			{
+				"key": "typescript",
+				"name": "Typescript",
+				"type": "devicon"
+			},
+			{
+				"key": "docker",
+				"name": "Docker",
+				"type": "devicon"
+			},
+			{
+				"key": "git",
+				"name": "Git(Hub)",
+				"type": "devicon"
+			}
 		]
 	},
 	{
@@ -25,20 +72,58 @@
 		"descriptionTitle": "An open source portfolio",
 		"description": "built on Next.js and React. A fast and agile MERN stack single page application.",
 		"imageOptions": [
-			{ "key": "size", 		"value": "large" }
+			{
+				"key": "size",
+				"value": "large"
+			}
 		],
-		"images": [
-		],
+		"images": [],
 		"stack": [
-			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
-			{ "key": "react", 		"name": "React", 		"type": "devicon" },
-			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
-			{ "key": "mongodb", 	"name": "MongoDB", 		"type": "devicon" },
-			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
-			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
-			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
-			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
-			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" }
+			{
+				"key": "nextjs",
+				"name": "Next.js",
+				"type": "devicon"
+			},
+			{
+				"key": "react",
+				"name": "React",
+				"type": "devicon"
+			},
+			{
+				"key": "nodejs",
+				"name": "Node.js",
+				"type": "devicon"
+			},
+			{
+				"key": "mongodb",
+				"name": "MongoDB",
+				"type": "devicon"
+			},
+			{
+				"key": "javascript",
+				"name": "JavaScript",
+				"type": "devicon"
+			},
+			{
+				"key": "html5",
+				"name": "HTML5",
+				"type": "devicon"
+			},
+			{
+				"key": "css3",
+				"name": "CSS3",
+				"type": "devicon"
+			},
+			{
+				"key": "sass",
+				"name": "SCSS",
+				"type": "devicon"
+			},
+			{
+				"key": "git",
+				"name": "Git(Hub)",
+				"type": "devicon"
+			}
 		]
 	},
 	{
@@ -47,16 +132,29 @@
 		"repo": "Private",
 		"descriptionTitle": "Digital health care multidisciplinary platform",
 		"description": "offering nutritional interventions, personalized care, and supporting NCDs management",
-		"imageOptions": [
-		],
-		"images": [
-			
-		],
+		"imageOptions": [],
+		"images": [],
 		"stack": [
-			{ "key": "php", 		"name": "PHP", 			"type": "devicon" },
-			{ "key": "vuejs", 		"name": "Vue.js", 		"type": "devicon" },
-			{ "key": "laravel", 	"name": "Laravel", 	"type": "devicon" },
-			{ "key": "mysql", 		"name": "MySQL", 		"type": "devicon" }
+			{
+				"key": "php",
+				"name": "PHP",
+				"type": "devicon"
+			},
+			{
+				"key": "vuejs",
+				"name": "Vue.js",
+				"type": "devicon"
+			},
+			{
+				"key": "laravel",
+				"name": "Laravel",
+				"type": "devicon"
+			},
+			{
+				"key": "mysql",
+				"name": "MySQL",
+				"type": "devicon"
+			}
 		]
 	}
 ]
