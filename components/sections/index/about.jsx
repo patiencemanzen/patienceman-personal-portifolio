@@ -30,7 +30,7 @@ export default function About() {
 				<SectionTitle
 					title="About Me"
 					preTitle="Synopsis"
-					subTitle="Just one heck of a stubborn, simple controlled guy. who rarely likes socializing with large groups of people, but also a highly skilled software developer with extensive experience in backend development using Laravel and Node.js, along with 2+ years of Frontend expertise in React, Vue, and TypeScript. With a strong passion for solving complex problems and building scalable, high-performance applications, I flourish in fast-paced, innovative environments. While I prefer focused, independent work over large social settings, I collaborate effectively with teams to drive projects toward success. I am always eager to learn, adapt, and contribute my expertise to challenging and impactful projects that push the boundaries of technology."
+					subTitle="I am a Software Developer with a strong foundation in both backend and front-end development. I specialize in building scalable, user-focused applications that address real-world problems. My passion lies in creating strong systems, and I thrive in fast-paced, collaborative environments. Beyond Engineering, I am driven by curiosity and a constant desire to learn and evolve, aspiring to make meaningful contributions to impactful tech solutions. I am eager to take on challenging roles that foster my growth while delivering high-quality results."
 				/>
 				<section className={about.content}>
 					<div className={about.image}>

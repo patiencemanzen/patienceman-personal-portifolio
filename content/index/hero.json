@@ -1,7 +1,7 @@
 {
 	"intro": {
 		"start": "const patienceman = ( name, passion ) =>",
-		"end": "Hello, My Name Is",
+		"end": "Hi!, I'm",
 		"speed": 60,
 		"deletionSpeed": 80,
 		"wrapper": "h2",
@@ -10,25 +10,25 @@
 		"restartDelay": 12000
 	},
 	"header": {
-		"name": "Manirabona Patience.",
-		"usp": "Innovative Thinker & Problem Solver"
+		"name": "Manirabona Patience,",
+		"usp": "Software Engineer"
 	},
-	"paragraph": "A passionate and innovative problem solver, this individual has a strong ability to create impactful solutions. With a solid background in software development, they excel at building efficient, user-friendly systems that enhance everyday experiences. Beyond coding, they are a visionary thinker who continually explores new ways to improve technology, streamline processes, and drive meaningful change. Their dedication to continuous learning and innovation makes them a dynamic force in the digital world.",
+	"paragraph": "Whether it’s building Softwares, automating workflows, or creating tools that make life easier — I blend creativity with code to deliver impact. Let’s build something extraordinary.",
 	"buttons": {
+		"secondary": {
+			"title": "LinkedIn",
+			"url": "https://www.linkedin.com/in/manirabona-patience/",
+			"leaveSite": true
+		},
 		"primary": {
 			"title": "Contact Me",
 			"url": "",
 			"leaveSite": false
 		},
-		"secondary": {
-			"title": "LinkedIn",
-			"url": "https://www.linkedin.com/in/manirabona-patience/",
-			"leaveSite": "true"
-		},
 		"download": {
-			"title": "Download CV",
-			"url": "https://drive.google.com/file/d/1a2K5rOhaDviVKxvpA36gzYm7DCwzNRh1/view?usp=sharing",
-			"leaveSite": "true"
+			"title": "Download Resume",
+			"url": "https://drive.google.com/file/d/19azcxfbT0ENUqosQHpjpztfLltZvsUU4/view?usp=sharing",
+			"leaveSite": true
 		}
 	}
 }
