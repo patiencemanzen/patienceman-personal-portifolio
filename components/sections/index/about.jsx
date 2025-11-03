@@ -34,17 +34,25 @@ export default function About() {
 				/>
 				<section className={about.content}>
 					<div className={about.image}>
-						{/* eslint-disable-next-line @next/next/no-img-element */}
-						<img src="/img/patienceman.jpg" alt="Manirabona Patience Image"/>
-						{/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
+						<Image 
+							src="/img/patienceman.jpg" 
+							alt="Manirabona Patience - Software Engineer"
+							width={600} 
+							height={800}
+							placeholder="blur"
+							blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+							priority={false}
+							loading="lazy"
+							sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+						/>
 					</div>
 					<div className={about.copy} >
 						<CopyBlock 
 							title="Softskills that pay the bills"
 							containerClass={about.container}
 							iconClass={about.icon}
-							icon={[ 'fat', 'ear-listen' ]}
-							copy="In addition to my design and technical expertise—I also have strong leadership, time management, and multitasking skills—honed through my experience as a business owner / managing partner. Outside of work, I enjoy staying active through sports such as basketball and vide Game. I am confident in my ability to bring passion and value to any project."
+							icon={[ 'fas', 'user-friends' ]}
+							copy="In addition to my design and technical expertise—I also have strong leadership, time management, and multitasking skills—honed through my experience as a business owner / managing partner. Outside of work, I enjoy staying active through sports such as basketball and video games. I am confident in my ability to bring passion and value to any project."
 						/>
 						<BadgesBlock 
 							title="Reasearch and planning" 
@@ -65,10 +73,10 @@ export default function About() {
 }
 
 const methods 	= [
-	{ key: 'planet-moon', 		name: 'User Research', 		type: 'fad' },
-	{ key: 'qrcode', 			name: 'Digital Strategy', 	type: 'fad' },
-	{ key: 'window', 			name: 'Design Systems', 	type: 'fad' },
-	{ key: 'cubes', 			name: 'Product Strategy', 	type: 'far' },
-	{ key: 'layer-plus', 		name: 'Brand Strategy', 	type: 'fad' },
-	{ key: 'solar-system', 		name: 'Operations', 		type: 'fad' },
+	{ key: 'search', 		name: 'User Research', 		type: 'fas' },
+	{ key: 'qrcode', 		name: 'Digital Strategy', 	type: 'fas' },
+	{ key: 'window-maximize', 	name: 'Design Systems', 	type: 'far' },
+	{ key: 'cubes', 		name: 'Product Strategy', 	type: 'fas' },
+	{ key: 'layer-group', 		name: 'Brand Strategy', 	type: 'fas' },
+	{ key: 'cogs', 			name: 'Operations', 		type: 'fas' },
 ]
