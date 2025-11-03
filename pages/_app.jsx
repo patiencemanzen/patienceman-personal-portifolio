@@ -20,8 +20,10 @@ import "@fontsource/inter/400.css"
 import "@fontsource/inter/700.css"
 import "@fontsource/inter/800.css"
 
-// Devicon import (https://github.com/devicons/devicon)
-import '../node_modules/devicon/devicon.min.css'
+// FontAwesome CSS (manual import since autoAddCss is disabled)
+import '@fortawesome/fontawesome-svg-core/styles.css'
+
+// Devicon import removed - CSS parsing issues with Next.js 16
 
 // Global css
 import '../styles/css/variables.css'

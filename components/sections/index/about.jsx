@@ -51,7 +51,7 @@ export default function About() {
 							title="Softskills that pay the bills"
 							containerClass={about.container}
 							iconClass={about.icon}
-							icon={[ 'fas', 'user-friends' ]}
+							icon={[ 'fas', 'user-group' ]}
 							copy="In addition to my design and technical expertise—I also have strong leadership, time management, and multitasking skills—honed through my experience as a business owner / managing partner. Outside of work, I enjoy staying active through sports such as basketball and video games. I am confident in my ability to bring passion and value to any project."
 						/>
 						<BadgesBlock 

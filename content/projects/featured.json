@@ -6,27 +6,93 @@
 		"descriptionTitle": "A digital art gallery",
 		"description": "a group of young Rwandan artists, through the Art for Memories initiative, are preserving the memory of genocide victims by recreating portraits from old photographs, offering solace and remembrance to survivors and their families",
 		"imageOptions": [],
-		"images": [],
+		"images": [
+			{
+				"key": "artformemory-main",
+				"url": "https://gdb.voanews.com/70569c19-04f2-42de-8048-fa4d39b5bfd4_w1023_r1_s.jpg",
+				"hover": "right",
+				"h": 400,
+				"w": 600
+			},
+			{
+				"key": "artformemory-gallery",
+				"url": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=500&h=300&fit=crop",
+				"hover": "left",
+				"h": 300,
+				"w": 500
+			}
+		],
 		"stack": [
-			{ "key": "typescript", "name": "Typescript", "type": "devicon" },
-			{ "key": "react", "name": "React.js", "type": "devicon" },
-			{ "key": "nodejs", "name": "Node.js", "type": "devicon" },
-			{ "key": "mongodb", "name": "MongoDB", "type": "devicon" },
-			{ "key": "javascript", "name": "JavaScript", "type": "devicon" },
-			{ "key": "prisma", "name": "Prisma", "type": "devicon" },
-			{ "key": "graphql", "name": "GraphQL", "type": "devicon" },
-			{ "key": "docker", "name": "Docker", "type": "devicon" },
-			{ "key": "git", "name": "Git(Hub)", "type": "devicon" }
+			{
+				"key": "typescript",
+				"name": "Typescript",
+				"type": "devicon"
+			},
+			{
+				"key": "react",
+				"name": "React.js",
+				"type": "devicon"
+			},
+			{
+				"key": "nodejs",
+				"name": "Node.js",
+				"type": "devicon"
+			},
+			{
+				"key": "mongodb",
+				"name": "MongoDB",
+				"type": "devicon"
+			},
+			{
+				"key": "javascript",
+				"name": "JavaScript",
+				"type": "devicon"
+			},
+			{
+				"key": "prisma",
+				"name": "Prisma",
+				"type": "devicon"
+			},
+			{
+				"key": "graphql",
+				"name": "GraphQL",
+				"type": "devicon"
+			},
+			{
+				"key": "docker",
+				"name": "Docker",
+				"type": "devicon"
+			},
+			{
+				"key": "git",
+				"name": "Git(Hub)",
+				"type": "devicon"
+			}
 		]
 	},
 	{
 		"project": "Eriprime.",
-		"url": "https://consultsolutions.onrender.com",
+		"url": "https://eriprime.com",
 		"repo": "Private",
 		"descriptionTitle": "an innovative online car marketplace",
 		"description": "that connects buyers and sellers in a seamless and efficient way.",
 		"imageOptions": [],
-		"images": [],
+		"images": [
+			{
+				"key": "eriprime-dashboard",
+				"url": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=400&fit=crop",
+				"hover": "left",
+				"h": 400,
+				"w": 600
+			},
+			{
+				"key": "eriprime-mobile",
+				"url": "https://images.unsplash.com/photo-1618044619888-009e412ff12a?w=300&h=500&fit=crop",
+				"hover": "right",
+				"h": 500,
+				"w": 300
+			}
+		],
 		"stack": [
 			{
 				"key": "nodejs",
@@ -66,44 +132,34 @@
 		]
 	},
 	{
-		"project": "patienceman.com",
-		"url": "https://github.com/patiencemanzen/patienceman-profile",
-		"repo": "Public",
-		"descriptionTitle": "An open source portfolio",
-		"description": "built on Next.js and React. A fast and agile MERN stack single page application.",
+		"project": "Museum Ingabo",
+		"url": "https://museumingabo.org",
+		"repo": "Private",
+		"descriptionTitle": "Digital memorial and cultural heritage museum",
+		"description": "Preserving and showcasing Rwandan history and cultural artifacts through curated digital exhibits, storytelling, and multimedia archives.",
 		"imageOptions": [
 			{
 				"key": "size",
 				"value": "large"
 			}
 		],
-		"images": [],
+		"images": [
+			{
+				"key": "museum-main",
+				"url": "https://images.unsplash.com/photo-1526318472351-c75fcf070dd3?w=700&h=450&fit=crop",
+				"hover": "right",
+				"h": 450,
+				"w": 700
+			},
+			{
+				"key": "museum-gallery",
+				"url": "https://images.unsplash.com/photo-1504198453319-5ce911bafcde?w=600&h=400&fit=crop",
+				"hover": "left",
+				"h": 400,
+				"w": 600
+			}
+		],
 		"stack": [
-			{
-				"key": "nextjs",
-				"name": "Next.js",
-				"type": "devicon"
-			},
-			{
-				"key": "react",
-				"name": "React",
-				"type": "devicon"
-			},
-			{
-				"key": "nodejs",
-				"name": "Node.js",
-				"type": "devicon"
-			},
-			{
-				"key": "mongodb",
-				"name": "MongoDB",
-				"type": "devicon"
-			},
-			{
-				"key": "javascript",
-				"name": "JavaScript",
-				"type": "devicon"
-			},
 			{
 				"key": "html5",
 				"name": "HTML5",
@@ -115,8 +171,13 @@
 				"type": "devicon"
 			},
 			{
-				"key": "sass",
-				"name": "SCSS",
+				"key": "javascript",
+				"name": "JavaScript",
+				"type": "devicon"
+			},
+			{
+				"key": "react",
+				"name": "React",
 				"type": "devicon"
 			},
 			{
@@ -133,7 +194,22 @@
 		"descriptionTitle": "Digital health care multidisciplinary platform",
 		"description": "offering nutritional interventions, personalized care, and supporting NCDs management",
 		"imageOptions": [],
-		"images": [],
+		"images": [
+			{
+				"key": "vitaway-dashboard",
+				"url": "data:image/jpeg;base64,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",
+				"hover": "left",
+				"h": 400,
+				"w": 600
+			},
+			{
+				"key": "vitaway-mobile",
+				"url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY8IYnOa6p3viMy3eRMMaZ_tW6Wv3sxL6u_Q&s",
+				"hover": "right",
+				"h": 600,
+				"w": 350
+			}
+		],
 		"stack": [
 			{
 				"key": "php",

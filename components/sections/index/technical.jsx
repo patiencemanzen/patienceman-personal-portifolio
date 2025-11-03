@@ -36,7 +36,7 @@ export default function Technical() {
           <div className={about.copy}>
             <CopyBlock
               title="Polymath foundations"
-              icon={["fat", "chart-network"]}
+              icon={["fas", "project-diagram"]}
               copy="With a strong foundation in both design and development, I bring a unique perspective to every project and am constantly learning and evolving to stay up-to-date with the latest industry trends."
               iconClass={about.icon}
               containerClass={about.container}
@@ -47,7 +47,7 @@ export default function Technical() {
               list={software}
               block="software"
               fullContainer="fullContainer"
-              icon="grid-2-plus"
+              icon="th-large"
               containerClass={about.container}
               headerIcon={about.icon}
             />
@@ -57,7 +57,7 @@ export default function Technical() {
               list={tech}
               block="tech"
               fullContainer="fullContainer"
-              icon="laptop-code"
+              icon="code"
               containerClass={about.container}
               headerIcon={about.icon}
             />
@@ -81,7 +81,7 @@ const software = [
   { key: "androidstudio", name: "Android Studio", type: "devicon" },
   { key: "vscode", name: "VSCode", type: "devicon" },
   { key: "figma", name: "Figma", type: "devicon" },
-  { key: "mailbox", name: "Postman", type: "fas" },
+  { key: "paper-plane", name: "Postman", type: "fas" },
   { key: "xcode", name: "X-code", type: "devicon" },
   { key: "docker", name: "Docker Engine", type: "devicon" },
   { key: "notion", name: "Notion", type: "devicon" },
