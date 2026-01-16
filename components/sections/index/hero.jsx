@@ -1,9 +1,8 @@
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import { TypeAnimation } from "react-type-animation";
 import Section from "../../structure/section";
 import Container from "../../structure/container";
 import space from "../../utils/spacing.util";
-import Icon from "../../utils/icon.util";
 import HeroBg from "../../blocks/hero.bg/bg-color-1";
 import hero from "../../../styles/sections/index/hero.module.scss";
 import button from "../../../styles/blocks/button.module.scss";
@@ -11,6 +10,19 @@ import content from "../../../content/index/hero.json";
 
 export default function Hero() {
   const [typingStatus, setTypingStatus] = useState("Initializing");
+
+  // Memoized click handlers for performance
+  const handleEmailClick = useCallback(() => {
+    window.location.href = "mailto:hseal419@gmail.com";
+  }, []);
+
+  const handleLinkedInClick = useCallback(() => {
+    window.open(content.buttons.secondary.url, "_blank", "noopener,noreferrer");
+  }, []);
+
+  const handleResumeClick = useCallback(() => {
+    window.open(content.buttons.download.url, "_blank", "noopener,noreferrer");
+  }, []);
 
   return (
     <Section classProp={`${hero.section}`}>
@@ -41,12 +53,12 @@ export default function Hero() {
           wrapper={content.intro.wrapper}
           repeat={Infinity}
         />
-        <section>
+        <header>
           <h1 className={hero.header}>{content.header.name}</h1>
-          <h1 className={`${hero.header} ${hero.primaryDim}`}>
+          <h2 className={`${hero.header} ${hero.primaryDim}`}>
             {content.header.usp}
-          </h1>
-        </section>
+          </h2>
+        </header>
         <section>
           <p
             className={`${hero.primaryBright} subtitle ${space([
@@ -56,32 +68,28 @@ export default function Hero() {
             {content.paragraph}
           </p>
         </section>
-        <section>
+        <section className={hero.buttonGroup}>
           <button
+            type="button"
             className={`button ${button.primary}`}
-            onClick={() => (window.location = "mailto:hseal419@gmail.com")}
+            onClick={handleEmailClick}
+            aria-label="Send email to Manirabona Patience"
           >
             {content.buttons.primary.title}
           </button>
           <button
+            type="button"
             className={`button ${button.secondary} leaveSite`}
-            onClick={() =>
-              window.open(
-                "https://www.linkedin.com/in/manirabona-patience",
-                "_blank"
-              )
-            }
+            onClick={handleLinkedInClick}
+            aria-label="Visit LinkedIn profile"
           >
             {content.buttons.secondary.title}
           </button>
           <button
+            type="button"
             className={`button ${button.secondary} leaveSite`}
-            onClick={() =>
-              window.open(
-                "https://drive.google.com/file/d/1a2K5rOhaDviVKxvpA36gzYm7DCwzNRh1/view?usp=sharing",
-                "_blank"
-              )
-            }
+            onClick={handleResumeClick}
+            aria-label="Download resume PDF"
           >
             {content.buttons.download.title}
           </button>

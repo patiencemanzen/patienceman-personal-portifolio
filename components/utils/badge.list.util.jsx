@@ -86,10 +86,12 @@ function IconModule({ iconKey, iconType, color }) {
 
 	switch (iconType) {
 		case 'far':
-		case 'fad':
-		case 'fat':
 		case 'fas':
+		case 'fab':
 			return ( <Icon icon={[ iconType, iconKey ]} /> )
+		case 'fad': // FontAwesome Duotone (Pro only) - fallback to solid
+		case 'fat': // FontAwesome Thin (Pro only) - fallback to solid
+			return ( <Icon icon={[ 'fas', iconKey ]} /> )
 		case 'devicon':
 			return ( <i className={`devicon-${iconKey}-plain ${colored}`} /> )
 		default:

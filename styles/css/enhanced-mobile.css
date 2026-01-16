@@ -1,0 +1,117 @@
+/* Global CSS improvements for better performance and mobile responsiveness */
+
+/* Improved scrolling behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Better mobile touch targets */
+@media (max-width: 768px) {
+  button.button {
+    min-height: 44px; /* Improved touch target */
+    padding: 0.875rem 2rem;
+    font-size: 0.925rem;
+  }
+
+  /* Improved typography scaling on mobile */
+  h1 {
+    font-size: clamp(2rem, 8vw, var(--font-xl));
+    line-height: 1.1;
+  }
+  
+  h2 {
+    font-size: clamp(1.5rem, 6vw, var(--font-xl));
+    line-height: 1.2;
+  }
+  
+  h3 {
+    font-size: clamp(1.125rem, 4vw, var(--font-m));
+    line-height: 1.3;
+  }
+  
+  p {
+    font-size: clamp(0.95rem, 3.5vw, var(--font-r));
+    line-height: 1.6;
+  }
+}
+
+/* Improved focus states for accessibility */
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--secondary);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Better image loading states */
+img {
+  background-color: var(--background-dim);
+  transition: opacity 0.3s ease;
+}
+
+img[data-src] {
+  opacity: 0;
+}
+
+img:not([data-src]) {
+  opacity: 1;
+}
+
+/* Reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Improved container queries for better responsive design */
+.container-query {
+  container-type: inline-size;
+}
+
+@container (max-width: 768px) {
+  .responsive-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Print styles */
+@media print {
+  * {
+    background: transparent !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  
+  a, a:visited {
+    text-decoration: underline;
+  }
+  
+  .no-print {
+    display: none !important;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  :root {
+    --primary: #000000;
+    --background: #ffffff;
+    --secondary: #0066cc;
+  }
+}
+
+/* Dark mode improvements */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --primary-bright: #ffffff;
+    --primary: #bfbfbf;
+    --primary-dim: #888889;
+    --background: #060708;
+    --background-dim: #08090a;
+  }
+}
