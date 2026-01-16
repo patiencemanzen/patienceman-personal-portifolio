@@ -15,7 +15,7 @@
 
 	.container {
 		text-align: left;
-		max-width: 700px;
+		// max-width: 700px;
 	}
 
 	.copy {
@@ -80,5 +80,165 @@
 		-webkit-background-clip: text;
 		background-clip: text;
 		-webkit-text-fill-color: transparent;
+	}
+}
+
+// New styles for enhanced looking section
+.interestsGrid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	gap: var(--size-2x);
+	margin: var(--size-2x) 0;
+}
+
+.interestCard {
+	padding: var(--size-2x);
+	background: var(--background-dim2);
+	border: 1px solid var(--primary-dark);
+	border-radius: 1rem;
+	transition: all 0.3s ease;
+
+	&:hover {
+		border-color: var(--neon-1-1);
+		transform: translateY(-4px);
+		box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+	}
+
+	.iconWrapper {
+		width: 50px;
+		height: 50px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: var(--primary-dark);
+		border-radius: 0.5rem;
+		margin-bottom: var(--size-2x);
+
+		svg {
+			width: 24px;
+			height: 24px;
+			color: var(--neon-1-1);
+		}
+	}
+
+	h3 {
+		font-size: 1.25rem;
+		margin-bottom: var(--size-1x);
+		color: var(--primary-bright);
+	}
+
+	p {
+		font-size: 0.95rem;
+		line-height: 1.6;
+		color: var(--primary);
+	}
+}
+
+.preferences {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--size-2x);
+	margin: var(--size-2x) 0;
+	padding: var(--size-2x);
+	background: var(--background-dim2);
+	border: 1px solid var(--primary-dark);
+	border-radius: 1rem;
+}
+
+.preferenceItem {
+	flex: 1;
+	min-width: 200px;
+
+	h4 {
+		font-size: 0.875rem;
+		color: var(--primary-dim);
+		margin-bottom: var(--size-1x);
+		text-transform: uppercase;
+		letter-spacing: 0.05rem;
+	}
+
+	p {
+		font-size: 1rem;
+		color: var(--primary-bright);
+		font-weight: 500;
+	}
+}
+
+.cta {
+	text-align: center;
+	margin-top: var(--size-2x);
+	padding: var(--size-4x);
+	background: var(--background-dim2);
+	border: 1px solid var(--primary-dark);
+	border-radius: 1rem;
+
+	h2 {
+		font-size: 2rem;
+		margin-bottom: var(--size-2x);
+		color: var(--primary-bright);
+	}
+
+	p {
+		font-size: 1.125rem;
+		line-height: 1.6;
+		color: var(--primary);
+		margin-bottom: var(--size-3x);
+		max-width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.buttons {
+	display: flex;
+	gap: var(--size-2x);
+	justify-content: center;
+	flex-wrap: wrap;
+
+	a {
+		padding: 0.875rem 2rem;
+		border-radius: 0.5rem;
+		font-weight: 600;
+		text-decoration: none;
+		transition: all 0.3s ease;
+		
+		&.primary {
+			background: var(--neon-1-1);
+			color: var(--background);
+			
+			&:hover {
+				background: var(--neon-1-2);
+				transform: translateY(-2px);
+			}
+		}
+		
+		&.secondary {
+			background: transparent;
+			border: 2px solid var(--primary-dim);
+			color: var(--primary-bright);
+			
+			&:hover {
+				border-color: var(--neon-1-1);
+				color: var(--neon-1-1);
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.interestsGrid {
+		grid-template-columns: 1fr;
+	}
+
+	.preferences {
+		flex-direction: column;
+	}
+
+	.buttons {
+		flex-direction: column;
+		
+		a {
+			width: 100%;
+		}
 	}
 }

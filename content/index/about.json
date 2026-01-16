@@ -1,0 +1,44 @@
+{
+	"title": "About Me",
+	"preTitle": "Synopsis",
+	"subTitle": "I am a Software Developer with a strong foundation in both backend and front-end development. I specialize in building scalable, user-focused applications that address real-world problems. My passion lies in creating strong systems, and I thrive in fast-paced, collaborative environments.",
+	"image": "/img/patienceman.jpg",
+	"imageAlt": "Manirabona Patience - Software Engineer",
+	"sections": [
+		{
+			"title": "Softskills that pay the bills",
+			"icon": ["fat", "ear-listen"],
+			"copy": "In addition to my design and technical expertise—I also have strong leadership, time management, and multitasking skills—honed through my experience as a business owner / managing partner. Outside of work, I enjoy staying active through sports such as basketball and video games. I am confident in my ability to bring passion and value to any project."
+		},
+		{
+			"title": "Research and planning",
+			"icon": ["fad", "fingerprint"],
+			"copy": "One of my favorite aspects of creating is planning the architecture of a project. From Design Systems to Brand Strategy—I enjoy working with the many touch points of user experience.",
+			"badges": [
+				{ "key": "planet-moon", "name": "User Research", "type": "fad" },
+				{ "key": "qrcode", "name": "Digital Strategy", "type": "fad" },
+				{ "key": "window", "name": "Design Systems", "type": "fad" },
+				{ "key": "cubes", "name": "Product Strategy", "type": "far" },
+				{ "key": "layer-plus", "name": "Brand Strategy", "type": "fad" },
+				{ "key": "solar-system", "name": "Operations", "type": "fad" }
+			]
+		}
+	],
+	"achievements": [
+		{
+			"metric": "5+",
+			"label": "Years Experience",
+			"description": "Building production-ready applications"
+		},
+		{
+			"metric": "15+",
+			"label": "Projects Delivered",
+			"description": "From concept to deployment"
+		},
+		{
+			"metric": "100%",
+			"label": "Client Satisfaction",
+			"description": "On-time delivery and quality code"
+		}
+	]
+}

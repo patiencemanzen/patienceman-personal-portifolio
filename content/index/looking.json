@@ -1,0 +1,65 @@
+{
+	"title": "What I'm Looking For",
+	"preTitle": "Opportunities",
+	"subTitle": "I'm actively seeking challenging opportunities where I can contribute to meaningful projects while continuing to grow as a software engineer.",
+	"interests": [
+		{
+			"title": "Full Stack Development Roles",
+			"icon": ["fad", "browser"],
+			"description": "Positions where I can leverage both frontend and backend expertise to build complete, user-focused solutions."
+		},
+		{
+			"title": "Product-Driven Companies",
+			"icon": ["fad", "rocket-launch"],
+			"description": "Organizations that prioritize innovation, user experience, and building products that solve real-world problems."
+		},
+		{
+			"title": "Remote-First Teams",
+			"icon": ["fad", "globe"],
+			"description": "Collaborative environments that embrace remote work culture and value clear communication and autonomy."
+		},
+		{
+			"title": "Growth & Learning",
+			"icon": ["fad", "graduation-cap"],
+			"description": "Opportunities to work with experienced teams, learn new technologies, and take on increasing responsibilities."
+		},
+		{
+			"title": "Impact-Driven Projects",
+			"icon": ["fad", "heart"],
+			"description": "Projects in healthcare, education, or social impact sectors that make a positive difference in people's lives."
+		},
+		{
+			"title": "Modern Tech Stack",
+			"icon": ["fad", "layer-group"],
+			"description": "Companies using cutting-edge technologies like React, Node.js, TypeScript, cloud platforms, and modern DevOps practices."
+		}
+	],
+	"workPreferences": {
+		"type": ["Full-time", "Contract", "Part-time"],
+		"location": ["Remote", "Kigali, Rwanda", "Hybrid"],
+		"startDate": "Immediate or upon agreement"
+	},
+	"availability": {
+		"status": "Available",
+		"notice": "2 weeks",
+		"hours": "Full-time (40+ hrs/week)"
+	},
+	"callToAction": {
+		"title": "Let's Build Something Great Together",
+		"description": "If you're looking for a passionate, dedicated software engineer who brings both technical expertise and a collaborative mindset, I'd love to hear from you.",
+		"buttons": [
+			{
+				"text": "View My Resume",
+				"url": "https://drive.google.com/file/d/19azcxfbT0ENUqosQHpjpztfLltZvsUU4/view?usp=sharing",
+				"type": "primary",
+				"external": true
+			},
+			{
+				"text": "Schedule a Call",
+				"url": "mailto:hseal419@gmail.com",
+				"type": "secondary",
+				"external": false
+			}
+		]
+	}
+}

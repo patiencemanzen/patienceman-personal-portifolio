@@ -3,6 +3,8 @@
 //global.module.scss
 .section {
 	border-bottom: 1px solid var(--primary-dark);
+	position: relative;
+	z-index: 1;
 
 	max-height: 1540px;
 	height: 110vh;
@@ -163,6 +165,28 @@
 	}
 
 	@include media($max: $mobile) {
+		height: auto;
+		min-height: 100vh;
+		padding: 80px 0px 30px;
+		
+		.header {
+			font-size: 2.5rem;
+			line-height: 1.1;
+		}
+		
+		.preHeader {
+			font-size: 1rem;
+		}
+		
+		.primaryBright {
+			font-size: 1rem;
+		}
+		
+		.tempBright {
+			width: 100%;
+			font-size: 0.875rem;
+		}
+		
 		.radialContainer {
 			.radialGradient {
 				right: -180%;

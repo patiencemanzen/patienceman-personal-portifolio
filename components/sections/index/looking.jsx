@@ -1,10 +1,14 @@
 // Section structure
 import Section 		from '../../structure/section';
 import Container 	from '../../structure/container';
+import Icon 		from '../../utils/icon.util';
 
 // Section scss
 import looking 		from '../../../styles/sections/index/looking.module.scss';
 import section 		from '../../../styles/blocks/section.title.module.scss'
+
+// Import content
+import content from '../../../content/index/looking.json';
 
 /**
  * Section: Looking
@@ -15,18 +19,60 @@ import section 		from '../../../styles/blocks/section.title.module.scss'
 export default function Looking() {
 	return (
 		<Section classProp={`${looking.section} borderBottom`}>	
-			<Container classProp={`${section.title} ${looking.container}`} spacing={['verticalXXXLrg']}>
-				<h4>I&apos;m currently looking for employment.</h4>
+			<Container classProp={`${section.title} ${looking.container}`} spacing={['verticalXXLrg']}>
+				<section className={section.preTitle}>
+					<h4>{content.preTitle}</h4>
+				</section>
+				<h1 className={section.heading}>{content.title}</h1>
+				<p className={`${section.subTitle}`}>{content.subTitle}</p>
 
-				<h2 className={looking.json}>&#123;</h2>
-				<h2 className={looking.jsonSub}><span className={looking.highlight}>Software Developer</span>,</h2>
-				<h2 className={looking.jsonSub}><span className={looking.highlight2}>User-Centric Innovator</span>,</h2>
-				<h2 className={looking.jsonSub}><span className={looking.highlight2}>AI & Machine Learning</span></h2>
-				<h2 className={looking.json}>&#125;</h2>
+				{/* Interests Grid */}
+				<div className={looking.interestsGrid}>
+					{content.interests.map((interest, index) => (
+						<div key={index} className={looking.interestCard}>
+							<div className={looking.iconWrapper}>
+								<Icon icon={interest.icon} />
+							</div>
+							<h3>{interest.title}</h3>
+							<p>{interest.description}</p>
+						</div>
+					))}
+				</div>
 
-				<h4>I am especially interested in backend engineering roles where I can contribute to developing meaningful solutions.</h4>
-				<h2>Full <span className={looking.highlight}>Stack Developer</span> </h2>
-				<p className="subtitle">with a focus on Product Growth.</p>
+				{/* Work Preferences */}
+				<div className={looking.preferences}>
+					<div className={looking.preferenceItem}>
+						<h4>Work Type</h4>
+						<p>{content.workPreferences.type.join(', ')}</p>
+					</div>
+					<div className={looking.preferenceItem}>
+						<h4>Location</h4>
+						<p>{content.workPreferences.location.join(', ')}</p>
+					</div>
+					<div className={looking.preferenceItem}>
+						<h4>Availability</h4>
+						<p>{content.availability.status} - {content.availability.notice} notice</p>
+					</div>
+				</div>
+
+				{/* Call to Action */}
+				<div className={looking.cta}>
+					<h2>{content.callToAction.title}</h2>
+					<p>{content.callToAction.description}</p>
+					<div className={looking.buttons}>
+						{content.callToAction.buttons.map((button, index) => (
+							<a 
+								key={index}
+								href={button.url} 
+								className={`button ${button.type === 'primary' ? 'primary' : 'secondary'}`}
+								target={button.external ? '_blank' : '_self'}
+								rel={button.external ? 'noopener noreferrer' : ''}
+							>
+								{button.text}
+							</a>
+						))}
+					</div>
+				</div>
 			</Container>
 		</Section>
 	)

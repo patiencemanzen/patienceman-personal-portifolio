@@ -185,12 +185,23 @@
 		}
 		.mobileToggle {
 			display: block;
+			-webkit-tap-highlight-color: transparent;
+			
+			/* Increase touch target size */
+			min-width: 44px;
+			min-height: 44px;
 		}
 		.menuHeader {
 			width: 100%;
+			
+			a {
+				-webkit-tap-highlight-color: transparent;
+				padding: 0.5rem;
+			}
 		}
 		.menu {
 			flex-direction: column;
+			margin: 0.5rem 1rem 1rem;
 		}
 		.menuContent {
 			transition: transform, cubic-bezier(0.4, 0, 0.2, 1), 300ms;
@@ -205,8 +216,21 @@
 
 			ul {
 				flex-direction: column;
-				gap: 2rem;
-				margin: 2rem;
+				gap: 1rem;
+				margin: 1.5rem 1rem;
+				
+				li {
+					a {
+						display: block;
+						padding: 0.75rem 1rem;
+						-webkit-tap-highlight-color: transparent;
+						/* Minimum touch target size */
+						min-height: 44px;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+					}
+				}
 			}
 		}
 	}

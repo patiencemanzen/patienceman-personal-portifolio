@@ -1,6 +1,6 @@
 {
 	"intro": {
-		"start": "const patienceman = ( name, passion ) =>",
+		"start": "const buildTheFuture = ( passion, code ) =>",
 		"end": "Hi!, I'm",
 		"speed": 60,
 		"deletionSpeed": 80,
@@ -11,9 +11,9 @@
 	},
 	"header": {
 		"name": "Manirabona Patience,",
-		"usp": "Software Engineer"
+		"usp": "Full Stack Software Engineer"
 	},
-	"paragraph": "Whether it’s building Softwares, automating workflows, or creating tools that make life easier — I blend creativity with code to deliver impact. Let’s build something extraordinary.",
+	"paragraph": "I craft scalable, user-centric applications that solve real-world problems. From architecting robust backend systems to building intuitive frontends—I combine technical excellence with creative problem-solving to deliver impactful solutions. Specializing in the MERN stack, TypeScript, and cloud technologies.",
 	"buttons": {
 		"secondary": {
 			"title": "LinkedIn",
@@ -30,5 +30,19 @@
 			"url": "https://drive.google.com/file/d/19azcxfbT0ENUqosQHpjpztfLltZvsUU4/view?usp=sharing",
 			"leaveSite": true
 		}
-	}
+	},
+	"stats": [
+		{
+			"value": "4+",
+			"label": "Years Experience"
+		},
+		{
+			"value": "15+",
+			"label": "Projects Completed"
+		},
+		{
+			"value": "100%",
+			"label": "Client Satisfaction"
+		}
+	]
 }

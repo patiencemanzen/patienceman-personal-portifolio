@@ -1,0 +1,62 @@
+{
+	"title": "Technical Skills",
+	"preTitle": "Expertise",
+	"subTitle": "As a full-stack developer, I leverage a diverse technology stack to build robust, scalable applications. My expertise spans across frontend frameworks, backend systems, databases, and cloud infrastructure.",
+	"skills": [
+		{
+			"category": "Frontend Development",
+			"description": "Creating responsive, performant user interfaces",
+			"technologies": [
+				{ "key": "react", "name": "React.js", "type": "devicon", "proficiency": "Expert" },
+				{ "key": "nextjs", "name": "Next.js", "type": "devicon", "proficiency": "Expert" },
+				{ "key": "typescript", "name": "TypeScript", "type": "devicon", "proficiency": "Advanced" },
+				{ "key": "javascript", "name": "JavaScript", "type": "devicon", "proficiency": "Expert" },
+				{ "key": "vuejs", "name": "Vue.js", "type": "devicon", "proficiency": "Advanced" },
+				{ "key": "html5", "name": "HTML5", "type": "devicon", "proficiency": "Expert" },
+				{ "key": "css3", "name": "CSS3", "type": "devicon", "proficiency": "Expert" },
+				{ "key": "sass", "name": "SCSS/Sass", "type": "devicon", "proficiency": "Advanced" }
+			]
+		},
+		{
+			"category": "Backend Development",
+			"description": "Building secure, scalable server-side applications",
+			"technologies": [
+				{ "key": "nodejs", "name": "Node.js", "type": "devicon", "proficiency": "Expert" },
+				{ "key": "express", "name": "Express.js", "type": "devicon", "proficiency": "Expert" },
+				{ "key": "php", "name": "PHP", "type": "devicon", "proficiency": "Advanced" },
+				{ "key": "laravel", "name": "Laravel", "type": "devicon", "proficiency": "Advanced" },
+				{ "key": "graphql", "name": "GraphQL", "type": "devicon", "proficiency": "Advanced" },
+				{ "key": "prisma", "name": "Prisma ORM", "type": "devicon", "proficiency": "Advanced" }
+			]
+		},
+		{
+			"category": "Database & Storage",
+			"description": "Designing efficient data models and queries",
+			"technologies": [
+				{ "key": "mongodb", "name": "MongoDB", "type": "devicon", "proficiency": "Expert" },
+				{ "key": "mysql", "name": "MySQL", "type": "devicon", "proficiency": "Advanced" },
+				{ "key": "postgresql", "name": "PostgreSQL", "type": "devicon", "proficiency": "Advanced" },
+				{ "key": "redis", "name": "Redis", "type": "devicon", "proficiency": "Intermediate" }
+			]
+		},
+		{
+			"category": "DevOps & Tools",
+			"description": "Streamlining development and deployment workflows",
+			"technologies": [
+				{ "key": "docker", "name": "Docker", "type": "devicon", "proficiency": "Advanced" },
+				{ "key": "git", "name": "Git & GitHub", "type": "devicon", "proficiency": "Expert" },
+				{ "key": "linux", "name": "Linux", "type": "devicon", "proficiency": "Advanced" },
+				{ "key": "vscode", "name": "VS Code", "type": "devicon", "proficiency": "Expert" },
+				{ "key": "jest", "name": "Jest", "type": "devicon", "proficiency": "Advanced" }
+			]
+		}
+	],
+	"softSkills": [
+		{ "name": "Problem Solving", "icon": ["fad", "lightbulb-on"] },
+		{ "name": "Team Collaboration", "icon": ["fad", "users"] },
+		{ "name": "Agile Methodology", "icon": ["fad", "sync"] },
+		{ "name": "Code Review", "icon": ["fad", "code-branch"] },
+		{ "name": "Technical Documentation", "icon": ["fad", "file-code"] },
+		{ "name": "Project Management", "icon": ["fad", "tasks"] }
+	]
+}

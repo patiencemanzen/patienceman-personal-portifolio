@@ -1,0 +1,92 @@
+{
+	"title": "Career Journey",
+	"preTitle": "Experience",
+	"subTitle": "Throughout my career, I've had the privilege of working on impactful projects and contributing to innovative solutions across various industries.",
+	"positions": [
+		{
+			"company": "Art For Memory",
+			"role": "Full Stack Developer",
+			"type": "Contract",
+			"duration": "2023 - Present",
+			"location": "Kigali, Rwanda",
+			"description": "Leading the development of a digital art gallery platform preserving genocide victims' memories through digital portraits.",
+			"achievements": [
+				"Architected and developed a full-stack application using TypeScript, React, Node.js, and MongoDB",
+				"Implemented GraphQL API with Prisma ORM for efficient data management",
+				"Designed and built a scalable microservices architecture using Docker",
+				"Integrated secure payment systems and user authentication flows"
+			],
+			"technologies": ["TypeScript", "React.js", "Node.js", "MongoDB", "GraphQL", "Prisma", "Docker"]
+		},
+		{
+			"company": "Vitaway E-clinic",
+			"role": "Full Stack Developer",
+			"type": "Contract",
+			"duration": "2022 - 2023",
+			"location": "Remote",
+			"description": "Developed a multidisciplinary digital healthcare platform offering nutritional interventions and NCD management.",
+			"achievements": [
+				"Built a comprehensive healthcare management system using Laravel and Vue.js",
+				"Implemented patient management, appointment scheduling, and medical records systems",
+				"Created RESTful APIs for mobile app integration",
+				"Optimized database queries reducing response time by 40%"
+			],
+			"technologies": ["PHP", "Laravel", "Vue.js", "MySQL", "RESTful API"]
+		},
+		{
+			"company": "Eriprime",
+			"role": "Full Stack Developer",
+			"type": "Contract",
+			"duration": "2021 - 2022",
+			"location": "Remote",
+			"description": "Developed an innovative online car marketplace connecting buyers and sellers seamlessly.",
+			"achievements": [
+				"Built a modern marketplace platform with real-time search and filtering",
+				"Implemented secure user authentication and authorization systems",
+				"Developed responsive UI/UX using React.js and Material-UI",
+				"Integrated third-party APIs for vehicle valuation and verification"
+			],
+			"technologies": ["Node.js", "React.js", "TypeScript", "MongoDB", "Docker"]
+		},
+		{
+			"company": "Freelance",
+			"role": "Software Engineer",
+			"type": "Self-Employed",
+			"duration": "2020 - Present",
+			"location": "Remote",
+			"description": "Providing software development services to clients worldwide, specializing in web applications and automation.",
+			"achievements": [
+				"Successfully delivered 15+ projects ranging from e-commerce to SaaS applications",
+				"Built custom CRM and inventory management systems",
+				"Developed automation tools saving clients 20+ hours per week",
+				"Maintained 100% client satisfaction with on-time, high-quality deliveries"
+			],
+			"technologies": ["Full Stack Development", "MERN Stack", "Next.js", "PHP", "Laravel", "Vue.js"]
+		}
+	],
+	"education": [
+		{
+			"institution": "Adventist University of Central Africa – AUCA",
+			"degree": "Bachelor of Degree in Software Engineering",
+			"duration": "2023 - 2026",
+			"location": "Kigali, Rwanda",
+			"achievements": [
+				"Graduated with Honors",
+				"Led multiple team projects using Agile methodologies",
+				"Completed capstone project on payment systems"
+			]
+		}
+	],
+	"certifications": [
+		{
+			"name": "Full Stack Web Development",
+			"issuer": "Online Learning Platform",
+			"year": "2021"
+		},
+		{
+			"name": "Docker & Kubernetes",
+			"issuer": "DevOps Certification",
+			"year": "2022"
+		}
+	]
+}

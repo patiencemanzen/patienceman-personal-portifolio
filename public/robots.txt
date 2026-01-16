@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Sitemap: https://patienceman.com/sitemap.xml
+
+# Disallow admin or API routes if any
+User-agent: *
+Disallow: /api/
+
+# Crawl-delay for bots
+Crawl-delay: 1

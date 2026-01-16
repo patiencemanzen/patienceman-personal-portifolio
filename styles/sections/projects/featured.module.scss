@@ -32,7 +32,6 @@
 	}
 }
 
-
 .projectHeader  {
 	display: flex;
 	flex-direction: column;
@@ -149,6 +148,68 @@
 	background: var(--primary-dark);
 }
 
+.highlights {
+	// margin: var(--size-1x) 0;
+	
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		gap: 0.75rem;
+		
+		li {
+			position: relative;
+			padding-left: 1.5rem;
+			font-size: 0.95rem;
+			line-height: 1.5;
+			color: var(--primary);
+			
+			&:before {
+				content: '✓';
+				position: absolute;
+				left: 0;
+				color: var(--neon-1-1);
+				font-weight: bold;
+				font-size: 1rem;
+			}
+		}
+	}
+}
+
+.metrics {
+	display: flex;
+	flex-direction: row;
+	gap: var(--size-2x);
+	flex-wrap: wrap;
+	// margin: var(--size-2x) 0;
+	padding: var(--size-2x);
+	background: var(--primary-dark);
+	border-radius: 0.75rem;
+	border: 1px solid var(--primary-dim2);
+	
+	.metric {
+		display: flex;
+		flex-direction: column;
+		gap: 0.25rem;
+		
+		.metricValue {
+			font-size: 1.25rem;
+			font-weight: 700;
+			color: var(--neon-1-1);
+			font-family: var(--font-accent);
+		}
+		
+		.metricLabel {
+			font-size: 0.75rem;
+			color: var(--primary-dim);
+			text-transform: capitalize;
+			font-weight: 500;
+		}
+	}
+}
+
 .bgContainer {
 	--opacity: 10%;
 
@@ -252,6 +313,7 @@
 	.project {
 		&:nth-of-type(n) {
 			flex-direction: column;
+			margin-bottom: var(--size-2x);
 
 			&:hover {
 				.details {
@@ -273,22 +335,34 @@
 				}
 				ul {
 					font-size: .6rem;
+					justify-content: center;
 				}
 			}
 
 			.imageContainer {
-				height: 100px;
+				min-height: 250px;
+				height: auto;
 				width: 100%;
+				margin-top: var(--size-2x);
 			}
 
 			.imageAnimationContainer {
-				height: calc(100% + 6rem);
+				position: relative;
+				height: 100%;
+				min-height: 250px;
 				width: 100%;
 		
 				> div > div {
 					> span {
+						position: relative !important;
+						right: auto !important;
+						display: flex;
+						justify-content: center;
+						
 						img {
-							width: calc(556px / 2) !important;
+							width: 100% !important;
+							max-width: 400px !important;
+							height: auto !important;
 						}
 					}
 				}
@@ -299,7 +373,7 @@
 			.imageAnimationContainer {
 				> div > div {
 					> span {
-						right: 2rem;
+						right: auto;
 					}
 				}
 			}
@@ -309,9 +383,60 @@
 			.imageAnimationContainer {
 				> div > div {
 					> span {
-						right: 0rem;
+						right: auto;
 					}
 				}
+			}
+		}
+	}
+
+	.projectHeader {
+		.header {
+			flex-direction: column;
+			align-items: flex-start;
+			gap: 1rem;
+
+			h3 {
+				font-size: 1.5rem;
+			}
+		}
+
+		.description p {
+			font-size: 1rem;
+		}
+	}
+
+	.highlights {
+		margin: var(--size-2x) 0;
+
+		ul li {
+			font-size: 0.85rem;
+			padding-left: 1.25rem;
+		}
+	}
+
+	.metrics {
+		flex-direction: column;
+		gap: var(--size-1x);
+		padding: var(--size-1x);
+
+		.metric {
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+			padding: var(--size-1x) 0;
+			border-bottom: 1px solid var(--primary-dim2);
+
+			&:last-child {
+				border-bottom: none;
+			}
+
+			.metricValue {
+				font-size: 1.1rem;
+			}
+
+			.metricLabel {
+				font-size: 0.7rem;
 			}
 		}
 	}
@@ -320,6 +445,29 @@
 		.orbitalBg {
 			width: unset;
 			height: 100%;
+		}
+	}
+}
+
+// Additional mobile breakpoint for very small screens
+@media (max-width: 480px) {
+	.project {
+		.projectHeader {
+			.header h3 {
+				font-size: 1.25rem;
+			}
+
+			.description p {
+				font-size: 0.9rem;
+			}
+		}
+
+		.highlights ul li {
+			font-size: 0.8rem;
+		}
+
+		.imageContainer {
+			min-height: 200px;
 		}
 	}
 }
