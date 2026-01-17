@@ -72,4 +72,14 @@ module.exports = {
 			},
 		];
 	},
+
+	// Rewrites to make sitemap accessible at /sitemap.xml
+	async rewrites() {
+		return [
+			{
+				source: '/sitemap.xml',
+				destination: '/api/sitemap',
+			},
+		];
+	},
 }
