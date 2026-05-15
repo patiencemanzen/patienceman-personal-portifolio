@@ -14,6 +14,21 @@ import career from "../../../styles/sections/index/career.module.scss";
 export default function Career() {
   const experiences = [
     {
+      company: "Kayko",
+      role: "Backend Developer - Hyblid - Full-time",
+      period: "MAY 2026 - Present · 1 mos",
+      location: "Kigali, Rwanda",
+      description: (
+        <>
+          As a Backend Engineer, I work closely with cross-functional
+          teams to design, build, and test software solutions that address
+          real-world challenges.
+          <br />
+        </>
+      ),
+      stack: jackalTechStack,
+    },
+    {
       company: "Jackal Tech Ltd",
       role: "Software Engineer Intern - Remote - Part-time",
       period: "APR 2025 - Present · 2 mos",
